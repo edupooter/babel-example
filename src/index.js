@@ -1,3 +1,5 @@
+const arrowSimple = () =>  'Hello World'
+
 const arrow = (param = "Tywin") => {
   let arr1 = ['Cersei', 'Jaime']
   let arr2 = [param, 'Tyrion']

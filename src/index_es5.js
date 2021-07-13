@@ -1,5 +1,9 @@
 'use strict';
 
+var arrowSimple = function arrowSimple() {
+  return 'Hello World';
+};
+
 var arrow = function arrow() {
   var param = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "Tywin";
 
